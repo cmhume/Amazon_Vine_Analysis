@@ -4,7 +4,7 @@
 ## Overview:
 
 
-In this analysis, ratings from paid Vine reviews were compared with ratings from free non-Vine reviews from the AWS dataset of Amazon ratings for US Musical Instruments.  Using the AWS console and Relational Database Service (RDS), a new PostgresSQL database was created to hold the Amazon review data and connect with the PgAdmin interface.  A Google collab python notebook was used for the Extract, Transform, Load (ETL) process for the dataset linked below. A second google collab python notebook was used to filter, clean and analyze the dataframes made in the first collab notebook using pySpark and Pandas libraries. 
+In this analysis, ratings from paid Vine reviews were compared with ratings from free non-Vine reviews from the AWS dataset of Amazon ratings for US Musical Instruments.  Using the AWS console and Relational Database Service (RDS), a new PostgresSQL database was created to hold the Amazon review data and connect with the PgAdmin interface.  A Google collab python notebook was used for the Extract, Transform, Load (ETL) process for the dataset linked below. A second google collab python notebook and the pySpark library was used to filter, clean and analyze the same Vine and non-Vine review dataframes that were also made in the first collab notebook. 
 
 Dataset: https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Musical_Instruments_v1_00.tsv.gz
 
@@ -12,7 +12,7 @@ Dataset: https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Music
 ETL google collab notebook: https://github.com/cmhume/Amazon_Vine_Analysis/blob/530aa7d4cfcfd192a8d061137560969207f44a51/Amazon_Reviews_ETL.ipynb
 
 
-Analysis google collab notebook:
+Analysis google collab notebook: https://github.com/cmhume/Amazon_Vine_Analysis/blob/5f2828a56e9191e8c4b8170262055698076e5ce3/Vine_Review_Analysis.ipynb
 
 
 ## Results:
