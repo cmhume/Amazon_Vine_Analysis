@@ -66,13 +66,19 @@ ETL google collab notebook: https://github.com/cmhume/Amazon_Vine_Analysis/blob/
 Analysis google collab notebook: https://github.com/cmhume/Amazon_Vine_Analysis/blob/5f2828a56e9191e8c4b8170262055698076e5ce3/Vine_Review_Analysis.ipynb
 
 
+![analysis_create_tables](https://user-images.githubusercontent.com/78699521/124401635-4b0ea200-dcdf-11eb-8f4f-a1788591c878.png)
+
+
+
 ![filter_num_votes](https://user-images.githubusercontent.com/78699521/124401175-ae4b0500-dcdc-11eb-8b87-948eb7654539.png)
 
 
 
-![review_analysis](https://user-images.githubusercontent.com/78699521/124401184-b7d46d00-dcdc-11eb-8b49-de29b5f3b423.png)
+![analysis_filter](https://user-images.githubusercontent.com/78699521/124401628-3af6c280-dcdf-11eb-80f6-22c77c1a5772.png)
 
 
+
+![analysis_results](https://user-images.githubusercontent.com/78699521/124401615-2d413d00-dcdf-11eb-9c93-be2c91a7bb0f.png)
 
 
 
