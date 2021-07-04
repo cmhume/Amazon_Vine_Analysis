@@ -4,7 +4,7 @@
 ## Overview:
 
 
-In this analysis, ratings from paid Vine reviews were compared with ratings from free non-Vine reviews from the AWS dataset of Amazon ratings for US Musical Instruments.  Using the AWS console and Relational Database Service (RDS), a new PostgresSQL database was created to hold the Amazon review data and connect with the PgAdmin interface.  A Google collab python notebook was used for the Extract, Transform, Load (ETL) process for the dataset linked below. A second google collab python notebook and the pySpark library was used to filter, clean and analyze the same Vine and non-Vine review dataframes that were also made in the first collab notebook. 
+In this analysis, ratings from paid Vine reviews were compared with ratings from free non-Vine reviews from the AWS dataset of Amazon ratings for US Musical Instruments.  Using the AWS console and Relational Database Service (RDS), a new PostgresSQL database was created to hold the Amazon review data and connect with the PgAdmin interface.  A Google collab python notebook was used for the Extract, Transform, Load (ETL) process for the AWS dataset. A second google collab notebook and the pySpark library was used to filter, clean and analyze the Vine and non-Vine reviews, looking for any rating bias between paid and un-paid reviews. 
 
 
 Dataset: https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Musical_Instruments_v1_00.tsv.gz
@@ -28,33 +28,39 @@ Analysis google collab notebook: https://github.com/cmhume/Amazon_Vine_Analysis/
 * 56.67% of Vine reviews had a rating of 5 stars and 56.72% of non-Vine reviews had a rating of 5 stars
 
 
-### Creating unpopulated tables in PgAdmin
+### Steps:
+
+
+#### Creating unpopulated tables in PgAdmin
 
 ![pgadmin_create_tables](https://user-images.githubusercontent.com/78699521/124401243-26192f80-dcdd-11eb-8f9f-3543e836fc99.png)
 
 
-### Loading data into PgAdmin with google collab notebook
+#### Loading data into PgAdmin with google collab notebook
 
 
 ETL google collab notebook: https://github.com/cmhume/Amazon_Vine_Analysis/blob/530aa7d4cfcfd192a8d061137560969207f44a51/Amazon_Reviews_ETL.ipynb
 
 
-### Populated tables in PgAdmin after ETL process in google collab notebook
+#### Populated tables in PgAdmin after ETL process in google collab notebook
 
-
+##### Vine Table
 ![load_vine_table](https://user-images.githubusercontent.com/78699521/124401253-3204f180-dcdd-11eb-8a7f-224225c175a6.png)
 
 
+##### Customers Table 
 ![load_customers_table](https://user-images.githubusercontent.com/78699521/124401262-3b8e5980-dcdd-11eb-854c-dc0115a55130.png)
 
 
+##### Products Table
 ![load_products_table](https://user-images.githubusercontent.com/78699521/124401268-40530d80-dcdd-11eb-8455-79707403aa77.png)
 
 
+##### Review ID Table
 ![load_review_id_table](https://user-images.githubusercontent.com/78699521/124401272-46e18500-dcdd-11eb-9e70-ccd7b60a6c50.png)
 
 
-### Analysis of data in google collab notebook
+#### Analysis of data in google collab notebook
 
 
 Analysis google collab notebook: https://github.com/cmhume/Amazon_Vine_Analysis/blob/5f2828a56e9191e8c4b8170262055698076e5ce3/Vine_Review_Analysis.ipynb
